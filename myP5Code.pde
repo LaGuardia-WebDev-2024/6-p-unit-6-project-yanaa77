@@ -10,10 +10,18 @@ void draw(){
   fill(255,255,255);
   strokeWeight(1);
 
-  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  ellipse(200, 300, 150, 150);  
-  ellipse(200, 300, 100, 100);  
-  ellipse(200, 120, 75, 75);  
+  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here 
+  fill(191,7,56)
+  ellipse(200, 290, 150, 80); //lips   
+
+  fill(0,0,0)
+  strokeWeight(3)
+  line(170, 290, 220, 290);
+
+
+  fill(91,171,195)
+  ellipse(110, 110, 65, 65); //left eye
+  ellipse(280, 110, 65, 65); //right eye
 
 }
 
