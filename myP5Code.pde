@@ -18,10 +18,21 @@ void draw(){
   strokeWeight(3)
   line(170, 290, 220, 290);
 
+fill()
+ellipse(90, 110, 140, 100); 
+ellipse(300, 110, 140, 100);
+
+ellipse(90, 110, 72, 70);
+ellipse(300, 110, 72, 70); 
 
   fill(91,171,195)
-  ellipse(110, 110, 65, 65); //left eye
-  ellipse(280, 110, 65, 65); //right eye
+  ellipse(90, 110, 65, 70); //left color eye
+  ellipse(300, 110, 65, 70); //right color eye
+
+  fill(0)
+  ellipse(90, 110, 14, 14); //puil
+  ellipse(300, 110, 14, 14); //pupil
+
 
 }
 
