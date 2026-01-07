@@ -18,20 +18,31 @@ void draw(){
   strokeWeight(3)
   line(170, 290, 220, 290);
 
-fill()
-ellipse(90, 110, 140, 100); 
-ellipse(300, 110, 140, 100);
+fill(250, 212, 105)
+ellipse(90, 110, 140, 90); //eye big left
+ellipse(300, 110, 140, 90); //eye big right 
 
-ellipse(90, 110, 72, 70);
-ellipse(300, 110, 72, 70); 
+ellipse(90, 104, 72, 70);
+ellipse(300, 104, 72, 70); 
 
   fill(91,171,195)
-  ellipse(90, 110, 65, 70); //left color eye
-  ellipse(300, 110, 65, 70); //right color eye
+  ellipse(90, 104, 65, 76); //left blue color eye
+  ellipse(300, 104, 65, 76); //right blue color eye
 
   fill(0)
-  ellipse(90, 110, 14, 14); //puil
-  ellipse(300, 110, 14, 14); //pupil
+  ellipse(90, 104, 18, 18); //puil
+  ellipse(300, 104, 18, 18); //pupil
+
+strokeWeight(3.5);
+line(160, 1, 160, 175);// nose long
+line(229, 1, 229, 175);// nose long
+
+
+160, 175,  // top-left (connects to left line)
+  229, 175,  // top-right (connects to right line)
+  245, 205,  // bottom-right (slants outward)
+  144, 205   // bottom-left (slants outward)
+
 
 
 }
