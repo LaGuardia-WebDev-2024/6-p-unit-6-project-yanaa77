@@ -11,8 +11,11 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here 
-  fill(191,7,56)
-  ellipse(200, 290, 150, 80); //lips   
+
+  fill(220,5,41) 
+stroke(0);
+strokeWeight(3);
+  ellipse(200, 308, 150, 80); //lips   
 
   fill(0,0,0)
   strokeWeight(3)
@@ -25,7 +28,7 @@ ellipse(300, 110, 140, 90); //eye big right
 ellipse(90, 104, 72, 70);
 ellipse(300, 104, 72, 70); 
 
-  fill(91,171,195)
+  fill(0,155,186)
   ellipse(90, 104, 65, 76); //left blue color eye
   ellipse(300, 104, 65, 76); //right blue color eye
 
@@ -33,15 +36,23 @@ ellipse(300, 104, 72, 70);
   ellipse(90, 104, 18, 18); //puil
   ellipse(300, 104, 18, 18); //pupil
 
-strokeWeight(3.5);
+
+stroke(0);
+strokeWeight(3);
 line(160, 1, 160, 175);// nose long
 line(229, 1, 229, 175);// nose long
 
+fill(220,5,41) 
+stroke(0);
+strokeWeight(3);
+quad(
+  160, 175,229, 175, 250, 220, 140, 220); 
 
-160, 175,  // top-left (connects to left line)
-  229, 175,  // top-right (connects to right line)
-  245, 205,  // bottom-right (slants outward)
-  144, 205   // bottom-left (slants outward)
+
+stroke(255,241,141);
+line(185, 180, 180, 230);
+line(195, 180, 195, 235);
+line(205, 180, 210, 230);
 
 
 
