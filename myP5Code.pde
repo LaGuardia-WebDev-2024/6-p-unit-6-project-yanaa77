@@ -11,6 +11,7 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here 
+ellipse (200, 150, 500, 500);
 
   fill(220,5,41) 
 stroke(0);
@@ -19,14 +20,15 @@ strokeWeight(3);
 
   fill(0,0,0)
   strokeWeight(3)
-  line(170, 290, 220, 290);
+  line(170, 290, 230, 290);
 
-fill(250, 212, 105)
+fill(250, 212, 105);
 ellipse(90, 110, 140, 90); //eye big left
 ellipse(300, 110, 140, 90); //eye big right 
 
-ellipse(90, 104, 72, 70);
-ellipse(300, 104, 72, 70); 
+
+ellipse(90,100,72, 70);
+ellipse(300, 100, 72, 70); 
 
   fill(0,155,186)
   ellipse(90, 104, 65, 76); //left blue color eye
@@ -36,23 +38,30 @@ ellipse(300, 104, 72, 70);
   ellipse(90, 104, 18, 18); //puil
   ellipse(300, 104, 18, 18); //pupil
 
+//nose
+fill (#db1496);
+rect(165, 0, 60, 180);
+line(165, 180, 130, 220);
+line(225, 180, 260, 220);
+line(130, 220, 260, 220);
+line(165, 150, 225, 150);
+fill(250, 212, 105);
+line(165, 120, 225, 120);
+line(165, 90, 225, 90);
+line(165, 60, 225, 60);
+line (165, 30, 225, 30);
+line (172, 180, 162, 220);
+line (195, 180, 195, 220);
+line (215, 180, 225, 220);
+line (195, 180, 195, 265);
+line (195,345, 195, 400);
 
-stroke(0);
-strokeWeight(3);
-line(160, 1, 160, 175);// nose long
-line(229, 1, 229, 175);// nose long
-
-fill(220,5,41) 
-stroke(0);
-strokeWeight(3);
-quad(
-  160, 175,229, 175, 250, 220, 140, 220); 
+//stroke(0);
+//strokeWeight(3);
+//line(160, 1, 160, 175);// nose long
+//line(229, 1, 229, 175);// nose long
 
 
-stroke(255,241,141);
-line(185, 180, 180, 230);
-line(195, 180, 195, 235);
-line(205, 180, 210, 230);
 
 
 
