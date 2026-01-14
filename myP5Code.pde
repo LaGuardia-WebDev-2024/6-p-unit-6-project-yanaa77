@@ -11,20 +11,21 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here 
+  fill(random(255), random(255), random(255));
 ellipse (200, 150, 500, 500);
 
   fill(220,5,41) 
 stroke(0);
 strokeWeight(3);
-  ellipse(200, 308, 150, 80); //lips   
+  ellipse(200,308, 150, 80);//lips   
 
   fill(0,0,0)
   strokeWeight(3)
-  line(170, 290, 230, 290);
+  line(130, 310, 270, 310);
 
 fill(250, 212, 105);
-ellipse(90, 110, 140, 90); //eye big left
-ellipse(300, 110, 140, 90); //eye big right 
+ellipse(80, 110, 200, 90); //eye big left
+ellipse(320, 110, 200, 90); //eye big right 
 
 
 ellipse(90,100,72, 70);
@@ -45,7 +46,6 @@ line(165, 180, 130, 220);
 line(225, 180, 260, 220);
 line(130, 220, 260, 220);
 line(165, 150, 225, 150);
-fill(250, 212, 105);
 line(165, 120, 225, 120);
 line(165, 90, 225, 90);
 line(165, 60, 225, 60);
@@ -60,10 +60,6 @@ line (195,345, 195, 400);
 //strokeWeight(3);
 //line(160, 1, 160, 175);// nose long
 //line(229, 1, 229, 175);// nose long
-
-
-
-
 
 }
 
