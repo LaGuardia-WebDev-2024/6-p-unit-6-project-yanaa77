@@ -17,8 +17,7 @@ html{
   width: 100%;
 }
 
-#myCanvas {
-  border-radius: 30px;
+#myCanvas {  border-radius: 30px;
   border: 15px double rgb(0, 0, 0);
 }
 
@@ -47,6 +46,7 @@ h2{
 #start{
   text-align: left;
 }
+
 
 #end{
   text-align: right;

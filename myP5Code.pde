@@ -11,12 +11,12 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here 
-  fill(random(255), random(255), random(255));
+  
 ellipse (200, 150, 500, 500);
 
-  fill(220,5,41) 
+ fill(220,5,41) 
 stroke(0);
-strokeWeight(3);
+strokeWeight(5);
   ellipse(200,308, 150, 80);//lips   
 
   fill(0,0,0)
@@ -24,6 +24,7 @@ strokeWeight(3);
   line(130, 310, 270, 310);
 
 fill(250, 212, 105);
+strokeWeight(4);
 ellipse(80, 110, 200, 90); //eye big left
 ellipse(320, 110, 200, 90); //eye big right 
 
@@ -49,19 +50,16 @@ line(165, 150, 225, 150);
 line(165, 120, 225, 120);
 line(165, 90, 225, 90);
 line(165, 60, 225, 60);
-line (165, 30, 225, 30);
-line (172, 180, 162, 220);
-line (195, 180, 195, 220);
-line (215, 180, 225, 220);
-line (195, 180, 195, 265);
-line (195,345, 195, 400);
 
-//stroke(0);
-//strokeWeight(3);
-//line(160, 1, 160, 175);// nose long
-//line(229, 1, 229, 175);// nose long
+line(165, 30, 225, 30);
+line(172, 180, 162, 220);
+line(195, 180, 195, 220);
+line(215, 180, 225, 220);
+line(195, 180, 195, 265);
+line(195, 345, 195, 600);
 
 }
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
